@@ -29,7 +29,6 @@ class User(db.Model, UserMixin):
     email = db.Column(db.String(255), unique=True)
     username = db.Column(db.String(64), nullable=False, default=email)
     image_file = db.Column(db.String(255), nullable=False, default='https://res.cloudinary.com/dfkq1dhjr/image/upload/v1735300803/19c2d5c87b88c6d69f99_pdp37k.jpg')
-    # image_file = db.Column(db.String(255), nullable=False, default='https://res.cloudinary.com/ddgtjayoj/image/upload/v1703609574/nwgptms1x2n1pa4k5hvo.jpg')
     phone_number = db.Column(db.String(20))
     first_name = db.Column(db.String(255))
     address = Column(String(255))

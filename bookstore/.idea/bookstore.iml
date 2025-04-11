@@ -4,10 +4,8 @@
     <option name="enabled" value="true" />
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
-    </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 virtualenv at ~/Documents/bookstore/.venv" jdkType="Python SDK" />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (bookstore)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
@@ -18,7 +16,7 @@
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/bookstore/templates" />
+        <option value="$MODULE_DIR$/templates" />
       </list>
     </option>
   </component>

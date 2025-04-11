@@ -1,4 +1,5 @@
 # Create dummy secrey key so we can use sessions
+from datetime import timedelta
 from urllib.parse import quote
 
 SECRET_KEY = 'c007d6402c1b77b1fac427a381d995fd'
@@ -19,6 +20,14 @@ SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:BaoMinh14022004%40@localhost/boo
 # SQLALCHEMY_TRACK_MODIFICATIONS = True
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
+# JWT Config
+JWT_SECRET_KEY = 'your-secure-jwt-key'  # Cần thay đổi trong môi trường production
+JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=1)
+
+# API Config
+RESTX_MASK_SWAGGER = False
+SWAGGER_UI_DOC_EXPANSION = 'list'
+RESTX_VALIDATE = True
 
 # Flask-Security config
 SECURITY_URL_PREFIX = "/admin"
