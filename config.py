@@ -13,7 +13,7 @@ DATABASE_FILE = 'bookstore'
 # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:%s@localhost/bookstore?charset=utf8mb4' % quote('Bestpro890!@#')
 
 # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:BaoMinh14022004%40@localhost/bookstore?charset=utf8mb4'
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:BaoMinh14022004@54.221.4.228/bookstore?charset=utf8mb4'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:BaoMinh14022004@52.87.192.249/bookstore?charset=utf8mb4'
 
 
 #SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:@localhost/'+ DATABASE_FILE +'?charset=utf8mb4'
